@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>502ITLA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <header id="top" data-uw-styling-context="true">
+        <div class="container" data-uw-styling-context="true">
+            <div class="row" data-uw-styling-context="true">
+                <div class="col-lg-9 col-md-9" data-uw-styling-context="true">
+                    <div class="logo" data-uw-styling-context="true">
+                        <a href="" data-uw-styling-context="true">
+                            <img src="https://i.ibb.co/sb92VW2/Sin-t-tulo.png" alt="Logo de la pagina" class="img-responsive" data-uw-styling-context="true">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 d-none d-sm-none d-lg-block" data-uw-styling-context="true">
+                    <div class="eletop float-right" data-uw-styling-context="true">
+                        <div class="escudo" data-uw-styling-context="true">
+                            <img src="https://ogtic.gob.do/wp-content/themes/optic/img/rd.svg" alt="Escudo de la República Dominicana" data-uw-styling-context="true">
+                        </div>
+                        <div class="search" data-uw-styling-context="true">
+                            <form class="search" method="get" action="" role="search" data-uw-styling-context="true">
+                                <span class="input-la input-group" data-uw-styling-context="true">
+                                    <input class="search-input form-control" aria-label="Ingresa tu búsqueda" type="search" required="" name="s" placeholder="Ingresa tu búsqueda" data-uw-styling-context="true">
+                                    <div class="input-group-btn" data-uw-styling-context="true">
+                                        <button class="search-submit" aria-label="Buscar en la página" type="submit" role="button"><i class="fa fa-search" aria-hidden="true" data-uw-styling-context="true"></i></button>
+                                    </div>
+
+
+                                </span>
+                            </form>
+                        </div>
+                        <div class="buscador menuTop" data-uw-styling-context="true">
+                            <ul data-uw-styling-context="true">
+                                <li id="menu-item-7" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-7" data-uw-styling-context="true"><a href="https://ogtic.gob.do/" aria-current="page" data-uw-styling-context="true">Inicio</a></li>
+                                <li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152" data-uw-styling-context="true"><a href="https://ogtic.gob.do/mapa-de-sitio/" data-uw-styling-context="true">Mapa de sitio</a></li>
+                                <li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149" data-uw-styling-context="true"><a href="https://ogtic.gob.do/contacto/" data-uw-styling-context="true">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+  <div class="navbar">
+      <div class="container ">
+          <div>                          </div>
+          <div class="float-left ">
+              <input type="button" class="btn btn-info" value="Cerrar Seccion" onclick="location.href='@Url.Action("CerrarSeccion", "Home")'" />
+          </div>
+      </div>
+      </div>
+
+    <div class="container" data-uw-styling-context="true">
+        <div class="colum" data-uw-styling-context="true">
+            @RenderBody()
+        </div>
+    </div>
+            <footer data-uw-styling-context="true">
+                <div class="container" data-uw-styling-context="true">
+                    <div id="sellos" class="visible-lg visible-md" data-uw-styling-context="true">
+                        <div id="selloa2" class="sellos" data-uw-styling-context="true">
+                            <p data-uw-styling-context="true">
+                                <!-- CÓDIGO DE SELLO NORTIC A2:2016 --><br data-uw-styling-context="true">
+                                <span id="selloNortic" data-uw-styling-context="true"><a href="https://optic.gob.do/nortic/index.php/certificaciones/instituciones-certificadas/item/oficina-presidencial-de-tecnologias-de-la-informacion-y-comunicacion-optic" hreflang="es" target="_blank" rel="nofollow" title="Medio web certificado bajo la NORTIC A2:2016 con el NIU 13001-01-A216130" data-uw-styling-context="true"><img loading="lazy" src="https://optic.gob.do/nortic/images/sellos/optic-sello-a2-2016/01-optic.png" lang="es" width="83" height="100" alt="Sello de certificación de la A2:2016 con el NIU 13001-01-A216130" data-uw-styling-context="true"></a></span><br data-uw-styling-context="true">
+                                <!-- FIN CÓDIGO DE SELLO NORTIC A2:2016 -->
+                            </p>
+                        </div>
+
+                        <div id="selloa3" class="sellos" data-uw-styling-context="true">
+                            <p data-uw-styling-context="true">
+                                <!-- CÓDIGO DE SELLO NORTIC A3:2014 --><br data-uw-styling-context="true">
+                                <span id="selloNortic" data-uw-styling-context="true"><a href="//optic.gob.do/nortic/index.php/certificaciones/instituciones-certificadas/item/oficina-presidencial-de-tecnologias-de-la-informacion-y-comunicacion-optic" hreflang="es" target="_blank" rel="nofollow" title="Medio web certificado bajo la NORTIC A3:2014 con el NIU 13001-03-A314275" data-uw-styling-context="true"><img loading="lazy" src="//optic.gob.do/nortic/images/sellos/optic-sello-a3-2014/03-optic.png" lang="es" width="83" height="100" alt="Sello de certificación de la A3:2014 con el NIU 13001-03-A314275" data-uw-styling-context="true"></a></span><br data-uw-styling-context="true">
+                                <!-- FIN CÓDIGO DE SELLO NORTIC A3:2014 -->
+                            </p>
+                        </div>
+
+                        <div id="selloa4" class="sellos" data-uw-styling-context="true">
+                            <p data-uw-styling-context="true">
+                                <!-- CÓDIGO DE SELLO NORTIC A4:2014 --><br data-uw-styling-context="true">
+                                <span id="selloNortic" data-uw-styling-context="true"><a href="https://optic.gob.do/nortic/index.php/certificaciones/instituciones-certificadas/item/oficina-presidencial-de-tecnologias-de-la-informacion-y-comunicacion-optic" hreflang="es" target="_blank" rel="nofollow" title="Medio web certificado bajo la NORTIC A4:2014 con el NIU 13001-01-A40E14" data-uw-styling-context="true"><img loading="lazy" src="https://optic.gob.do/nortic/images/sellos/optic-sello-a4-2014/01-optic.png" lang="es" width="83" height="100" alt="Sello de certificación de la A4:2014 con el NIU 13001-01-A40E14" data-uw-styling-context="true"></a></span><br data-uw-styling-context="true">
+                                <!-- FIN CÓDIGO DE SELLO NORTIC A4:2014 -->
+                            </p>
+                        </div>
+
+                        <div id="selloa5" class="sellos" data-uw-styling-context="true">
+                            <p data-uw-styling-context="true">
+                                <!-- C�DIGO DE SELLO NORTIC A5:2015 --><br data-uw-styling-context="true">
+                                <span id="selloNortic" data-uw-styling-context="true"><a href="https://optic.gob.do/nortic/index.php/certificaciones/instituciones-certificadas/item/oficina-presidencial-de-tecnologias-de-la-informacion-y-comunicacion-optic" hreflang="es" target="_blank" rel="nofollow" title="Medio web certificado bajo la NORTIC A5:2015 con el NIU 13001-01-A50F07" data-uw-styling-context="true"><img loading="lazy" src="//optic.gob.do/nortic/images/sellos/optic-sello-a5-2015/01-optic.png" lang="es" width="83" height="100" alt="Sello de certificaci�n de la A5:2015 con el NIU 13001-01-A50F07" data-uw-styling-context="true"></a></span><br data-uw-styling-context="true">
+                                <!-- FIN C�DIGO DE SELLO NORTIC A5:2015 -->
+                            </p>
+                        </div>
+
+                        <div id="selloe1" class="sellos" data-uw-styling-context="true">
+                            <p data-uw-styling-context="true">
+                                <!-- C�DIGO DE SELLO NORTIC E1:2014 --><br data-uw-styling-context="true">
+                                <span id="selloNortic" data-uw-styling-context="true"><a href="//optic.gob.do/nortic/index.php/certificaciones/instituciones-certificadas/item/oficina-presidencial-de-tecnologias-de-la-informacion-y-comunicacion-optic" hreflang="es" target="_blank" rel="nofollow" title="Medio web certificado bajo la NORTIC E1:2014 con el NIU 13001-01-E10E21" data-uw-styling-context="true"><img loading="lazy" src="//optic.gob.do/nortic/images/sellos/optic-sello-e1-2014/01-optic.png" lang="es" width="83" height="100" alt="Sello de certificaci�n de la E1:2014 con el NIU 13001-01-E10E21" data-uw-styling-context="true"></a></span><br data-uw-styling-context="true">
+                                <!-- FIN CDIGO DE SELLO NORTIC E1:2014 -->
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="loguitos" data-uw-styling-context="true">
+                        <ul data-uw-styling-context="true">
+                            <li data-uw-styling-context="true">
+                                <a href="//presidencia.gob.do/" target="_blank" rel="noopener" data-uw-styling-context="true">
+                                    <img src="https://ogtic.gob.do/wp-content/themes/optic/img/presidencia.png" alt="Presidencia" data-uw-styling-context="true">
+                                </a>
+                            </li>
+                            <li data-uw-styling-context="true">
+                                <span class="line" data-uw-styling-context="true"></span>
+                            </li>
+                            <li data-uw-styling-context="true">
+                                <a href="" data-uw-styling-context="true">
+                                    <img src="https://i.ibb.co/xqBGH89/502-ITLA.png" alt="Logo 502-ITLA" data-uw-styling-context="true">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copy" data-uw-styling-context="true">
+                        <h4 data-uw-styling-context="true">502-ITLA</h4>
+
+                        <address data-uw-styling-context="true">Calle Camino de Engombe #24, Santo Domingo Oeste, República Dominicana</address>
+                        <span class="contactinfo" data-uw-styling-context="true">
+                            Tel.: (809)-286-1009
+                            | Fax - (809)-732-5465
+                            <br data-uw-styling-context="true"><a href="mailto:info@itla.edu.do" data-uw-styling-context="true">info@itla.edu.do</a>
+                        </span>
+
+                        <div class="menufooter" data-uw-styling-context="true">
+                            <ul data-uw-styling-context="true">
+                                <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31" data-uw-styling-context="true"><a href="https://ogtic.gob.do/terminos-de-uso/" data-uw-styling-context="true">Términos de Uso</a></li>
+                                <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-32" data-uw-styling-context="true"><a href="https://ogtic.gob.do/politicas/" data-uw-styling-context="true">Políticas de Privacidad</a></li>
+                                <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33" data-uw-styling-context="true"><a href="https://ogtic.gob.do/preguntas-frecuentes/" data-uw-styling-context="true">Preguntas Frecuentes</a></li>
+                            </ul>
+                        </div>
+                        <div class="copyrigt" data-uw-styling-context="true">©2022 Todos los derechos reservados</div>
+                    </div>
+
+                    <div class="d-lg-block d-none" data-uw-styling-context="true">
+                        <a href="#top" class="toTop" data-uw-styling-context="true">Subir al Inicio<i class="fas fa-angle-up" data-uw-styling-context="true"></i></a>
+                    </div>
+
+                </div>
+            </footer>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
